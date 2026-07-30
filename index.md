@@ -8,4 +8,4 @@
 
 - **Состояние:** новый, не использовался
 - **Цена:** 300 MDL
-- **Сайт:** https://xstyle.md/product/spuskovoe-ustrojstvo-singing-rock-shuttle/
+- **Сайт:** [xstyle.md](https://xstyle.md/product/spuskovoe-ustrojstvo-singing-rock-shuttle/)
