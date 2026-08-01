@@ -40,7 +40,9 @@ export default function App() {
 
   return (
     <main className="mx-auto max-w-6xl p-4">
-      <h1 className="mb-6 text-3xl font-bold">Flea Market</h1>
+      <h1 className="mb-6 text-3xl font-bold">Барахолка</h1>
+
+
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {listings.map((listing) => (

@@ -1,6 +1,5 @@
 import { useMemo, useState } from "react";
 import type { Listing } from "../types";
-import telegramLogo from "../assets/telegram-logo.svg"
 
 interface ListingCardProps {
     listing: Listing;
@@ -82,14 +81,14 @@ export default function ListingCard({ listing }: ListingCardProps) {
                     <p className="text-gray-500">{listing.company}</p>
                 </div>
 
-                <p className="text-3xl font-bold text-green-600">{listing.price}</p>
+                <p>{listing.description}</p>
 
                 <p>
                     <span className="font-semibold">Состояние:</span>{" "}
                     {listing.condition}
                 </p>
 
-                <p className="text-gray-700">{listing.description}</p>
+                <p className="text-3xl font-bold text-green-600">{listing.price}</p>
 
                 <div className="flex flex-wrap gap-3">
                     <a
@@ -98,7 +97,7 @@ export default function ListingCard({ listing }: ListingCardProps) {
                         rel="noopener noreferrer"
                         className=" bg-slate-800 px-4 py-2 text-white transition hover:bg-slate-700 flex items-center gap-2"
                     >
-                        Product Page
+                        🔗 Ссылка на оф. сайт
                     </a>
 
                     <a
@@ -107,12 +106,7 @@ export default function ListingCard({ listing }: ListingCardProps) {
                         rel="noopener noreferrer"
                         className=" bg-sky-500 px-4 py-2 text-white transition hover:bg-sky-600 flex items-center gap-2"
                     >
-                        <img
-                            src={telegramLogo}
-                            alt="Logo"
-                            className="h-8 w-auto"
-                        />
-                        Contact on Telegram
+                        🖊 Написать в тг
                     </a>
                 </div>
             </div>
