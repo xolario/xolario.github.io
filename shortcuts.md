@@ -1,0 +1,1 @@
+The middle dot symbol (`·`): `Option` + `Shift` + `9`

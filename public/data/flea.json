@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Shuttle",
+        "company": "Singing Rock",
+        "price": "300 MDL",
+        "description": "Страховочное устройство",
+        "url": "https://xstyle.md/product/spuskovoe-ustrojstvo-singing-rock-shuttle/",
+        "condition": "новый, не использовался",
+        "images": [
+            "001-01.jpg",
+            "001-02.jpg"
+        ],
+        "username": "xolario",
+        "sold": false
+    }
+]
